@@ -1,0 +1,4 @@
+hosts
+*.txt
+*.retry
+*.swp
