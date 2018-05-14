@@ -5,9 +5,14 @@ Run by:
 ansible-playbook -i hosts demo_ios.yml -vvvv
 ```
 
-The hostname is  DNSHOSTNAMEIOS and the OS is 15.1(2)SY4a
+## Sample output
+
 
 ```
+console:
+The hostname is  DNSHOSTNAMEIOS and the OS is 15.1(2)SY4a
+
+switch-facts file in current working directory:
 IOS device info:
   Hostname:  DNSHOSTNAMEIOS
   Version: 15.1(2)SY4a

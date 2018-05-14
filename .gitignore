@@ -2,3 +2,4 @@ hosts
 *.txt
 *.retry
 *.swp
+switch-facts
