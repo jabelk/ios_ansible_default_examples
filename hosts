@@ -1,0 +1,16 @@
+[all:vars]
+# these defaults can be overridden for any group in the [group:vars] section
+ansible_connection=network_cli
+ansible_user=ansible
+[network:vars]
+ansible_become=yes
+ansible_become_method=enable
+ansible_network_os=ios
+ansible_user=jabelk.web
+ansible_ssh_pass=dv723qbpqzTJ.
+#ansible_connection=local
+#username=jabelk.web
+#password=dv723qbpqzTJ.
+[network]
+#rtp5-itnlab-dt-sw1
+rtp5-itnlab-dt-gw1
